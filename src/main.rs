@@ -35,4 +35,5 @@ async fn main() {
     // println!("Coinbase Pro BTC/USD: {}", coinbase_btc_usd);
 
     get_crypto_pairs_binance().await.unwrap();
+    get_crypto_pairs_binance().await.unwrap();
 }
