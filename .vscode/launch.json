@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "lldb",
+        "request": "launch",
+        "name": "Debug executable",
+        "cargo": {
+          "args": [
+            "build",
+            "--bin=crypto_price",
+            "--package=crypto_price"
+          ],
+          "filter": {
+            "name": "crypto_price",
+            "kind": "bin"
+          }
+        },
+        "args": [],
+        "cwd": "${workspaceFolder}"
+      }
+    ]
+  }
+
+  
